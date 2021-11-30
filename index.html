@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+/* Create four equal columns that floats next to each other */
+
+.column {
+
+    float: left;
+
+    width: 23%;
+
+    padding: 10% 5% 10% 5%;
+
+    margin: 1%;
+}
+
+#block{
+
+    padding: 10%;
+
+    background-color:lightgreen;
+
+    margin:1%;
+
+}
+
+.column2 {
+
+    float: left;
+
+    width: 31.3%;
+
+    padding: 20% 10% 20% 10%;
+
+    margin:1%;
+
+}
+
+@media screen and (max-width: 480px) {
+
+.column {
+
+    width: 48%;
+    padding: 5%;
+}
+
+.column2{   
+
+    width: 98% !important;
+
+    padding: 10% !important;
+
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+    <div id="block"></div>
+
+    <div>
+
+        <div class="column2" style="background-color:lightblue"></div>
+
+        <div class="column2" style="background-color:lightblue"></div>
+
+        <div class="column2" style="background-color:lightblue"></div>
+
+    </div>
+
+<div>
+
+    <div class="column" style="background-color:#dddd;">
+    </div>
+
+    <div class="column" style="background-color:#dddd;">
+    </div>
+
+    <div class="column" style="background-color:#dddd;">
+    </div>
+
+    <div class="column" style="background-color:#ddd;">
+    </div>
+
+</div>
+
+</body>
+</html>
